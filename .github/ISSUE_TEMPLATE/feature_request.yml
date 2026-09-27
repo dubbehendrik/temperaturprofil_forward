@@ -1,0 +1,10 @@
+name: Erweiterung vorschlagen
+description: Eine Verbesserung für die Lehrapp vorschlagen
+title: "[Wunsch] "
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Welche Funktion fehlt und wofür wird sie benötigt?
+    validations:
+      required: true
