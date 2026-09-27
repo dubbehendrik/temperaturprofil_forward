@@ -1,0 +1,15 @@
+name: Fehler melden
+description: Fehler in Berechnung, Bedienung oder Darstellung beschreiben
+title: "[Fehler] "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Fehler und Schritte zum Nachstellen
+      description: Bitte Eingabeparameter, erwartetes Ergebnis und tatsächliches Verhalten angeben.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Browser, Screenshot oder Fehlermeldung
